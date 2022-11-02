@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: #1f2937;
+    height:auto;
+    padding:20px;
+}
+.nav{
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+}
+.icon{
+    color:#f9faf8;
+    font-size:24px;
+}
+.links{
+    display:flex;
+    justify-content:space-around;
+}
+.links a{
+    color:#e5e7eb;
+    font-size:18px;
+    text-decoration: none;
+}
+.links a:hover{
+    color:rgb(87, 250, 87);
+    font-weight: bold;
+}
+.login{
+    margin-left:20px;
+}
+.header{
+    padding:50px;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+.text{
+    width:450px;
+    height:300px;
+}
+.text h1{
+    font-size:48px;
+    font-weight:bolder;
+    color:#f9faf8;
+}
+.text p{
+    color:#e5e7eb;
+    font-size:18px;
+}
+.button{
+    background-color:#5ae23f;
+    color:#f9faf8;
+    font-size:15px;
+    text-align:center;
+    width:100px;
+    height:35px;
+    margin-top:10px;
+    border-radius: 10px;
+}
+.info{
+    background-color: #f9faf8;
+    height:auto;
+    padding:20px;
+    text-align:center;
+    color:#1f2937;
+    font-size:36px;
+    text-align:center;
+    font-weight:bolder;
+}
+.content{
+    padding:50px;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+.item{
+    width:180px;
+    height:auto;
+    font-size:18px;
+    color:#1f2937;
+}
+.item img{
+    border-radius: 15%;
+}
+.quote{
+    height:400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.main{
+    width:900px;
+    height:200px;
+    padding:30px;
+    box-sizing: border-box;
+    font-size:36px;
+    font-weight:100;
+    color:#1f2937;
+}
+.author{
+    text-align:end;
+    font-size:20px;
+    font-weight:bold;
+}
+.last{
+    height:360px;
+    background-color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.call{
+    width:800px;
+    height:150px;
+    background-image:url("images/plant.jpg");
+    box-sizing: border-box;
+    padding:20px;
+    border-radius:10px;
+    color:#e5e7eb;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+spam{
+    color:#F9Faf8;
+    font-size:24px;
+    font-weight:bold;
+}
+.second{
+    border:1px solid #fff;
+    color:#F9Faf8;
+}
+footer{
+    height:80px;
+    padding:30px;
+    box-sizing: border-box;
+    background-color: #1f2937;
+    color:#F9Faf8;
+    font-size:20px;
+    text-align: center;
+}
