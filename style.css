@@ -2,146 +2,127 @@
     margin:0;
     padding:0;
 }
-.container{
-    background-color: red;
-    height:auto;
-    padding:20px;
-}
-.nav{
-    height:50px;
-    display:flex;
-    justify-content: space-around;
-}
-.icon{
-    color:#f9faf8;
-    font-size:24px;
-}
-.links{
+header{
+    background-color:rgb(245, 210, 0);
+    height:40px;
     display:flex;
     justify-content:space-around;
-}
-.links a{
-    color:#e5e7eb;
-    font-size:18px;
-    text-decoration: none;
-}
-.links a:hover{
-    color:rgb(87, 250, 87);
-    font-weight: bold;
-}
-.login{
-    margin-left:20px;
-}
-.header{
-    padding:50px;
-    display:flex;
-    justify-content: center;
-    gap:50px;
-}
-.text{
-    width:450px;
-    height:300px;
-}
-.text h1{
-    font-size:48px;
-    font-weight:bolder;
-    color:#f9faf8;
-}
-.text p{
-    color:#e5e7eb;
-    font-size:18px;
-}
-.button{
-    background-color:#5ae23f;
-    color:#f9faf8;
-    font-size:15px;
-    text-align:center;
-    width:100px;
-    height:35px;
-    margin-top:10px;
-    border-radius: 10px;
-}
-.info{
-    background-color: #f9faf8;
-    height:auto;
     padding:20px;
-    text-align:center;
-    color:#1f2937;
-    font-size:36px;
-    text-align:center;
-    font-weight:bolder;
+    font-size:25px;
 }
-.content{
-    padding:50px;
+.logo{
+    color:#0d036e;
+}
+.nav{
     display:flex;
-    justify-content: center;
-    gap:10px;
+    justify-content:space-between;
+    gap:15px;
+    font-size:20px;
 }
-.item{
-    width:180px;
-    height:auto;
-    font-size:18px;
-    color:#1f2937;
+.nav a{
+    text-decoration:none;
+    color:#0644c2;
 }
-.item img{
-    border-radius: 15%;
-}
-.quote{
-    height:400px;
-    background-color: #e5e7eb;
-    display: flex;
-    justify-content: center; 
+
+.info{
+    background-image:url(images/download.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    justify-content: space-evenly;
     align-items: center;
+    height:400px;
+    padding:30px;
+    
+    
+}.content{
+    backdrop-filter:blur(20px);
+    background-color: rgba(47, 47, 47,0.3);
+    border-radius:30px;
+    max-width: 450px;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    font-weight:bolder;
+    color:#ffffff;
+    text-align:left;
+}
+.btn{
+    width:300px;
+    height:100px;
+    backdrop-filter:blur(5px);
+    background-color: rgba(255, 203, 116, .2);
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:20px;
+    color:rgb(0, 53, 114);
+    font-size:25px;
+    gap:20px;
+}
+button{
+    width:150px;
+    height:50px;
+    border-radius: 20px;
+    background-color: #ffe367;
+    transition:.5s ease-in;
 
 }
-.main{
-    width:900px;
-    height:200px;
-    padding:30px;
-    box-sizing: border-box;
-    font-size:36px;
-    font-weight:100;
-    color:#1f2937;
-}
-.author{
-    text-align:end;
+button a{
+    text-decoration: none;
+    color:red;
     font-size:20px;
-    font-weight:bold;
+    font-weight: bold;
 }
-.last{
-    height:360px;
-    background-color:#f9faf8;
+button:hover{
+    background-color:#fdeda7;
+    cursor: pointer;
+    
+}
+.content h2{
+    color:rgb(248, 192, 95);
+    font-family:Norse;
+    font-weight:bolder;
+    font-size:45px;
+    margin:0;
+}
+.quote{
+    background-color: #e5e7eb;
+    height:100px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content:space-around;
+    padding:20px;
+}
+.quote p{
+    font-size:25px;
+}
+.quote h3{
+    align-self:flex-end;
+}
+.signup{
+    background-image:url(images/bc.jpg);
+    background-position: center;
+    background-size: cover;
+    display:flex;
     justify-content: center;
     align-items:center;
-}
-.call{
-    width:800px;
-    height:150px;
-    background-image:url("images/plant.jpg");
-    box-sizing: border-box;
     padding:20px;
-    border-radius:10px;
-    color:#e5e7eb;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-}
-spam{
-    color:#F9Faf8;
-    font-size:24px;
-    font-weight:bold;
-}
-.second{
-    border:1px solid #fff;
-    color:#F9Faf8;
 }
 footer{
-    height:80px;
-    padding:30px;
-    box-sizing: border-box;
-    background-color: #1f2937;
-    color:#F9Faf8;
-    font-size:20px;
-    text-align: center;
+    background-color: #2f2f2f;
+    height:70px;
+    text-align: center;  
+
+}
+.btm{
+    padding-top:15px;
+    color:#e5e7eb
 }
