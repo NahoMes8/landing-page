@@ -1,12 +1,6 @@
 # landing-page
-this is my second project for odin-project.
-photo-credits (unsplash)
-Kalen Emsley, 
-op23, 
-Andrew Charney, 
-Francesco Ungaro, 
-Matthew Smith, 
-Edwin Splisser and 
-renzon d souza 
+this is an upgraded version of my landing page project which, now is a landing page for my yet to b upgraded odin-recipes project.
+photo-credits
+times-food(lazagna pic)
 
 https://nahomes8.github.io/landing-page/
